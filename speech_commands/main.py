@@ -24,8 +24,8 @@ while True:
             pyautogui.rightClick()
 
     except sr.UnknownValueError:
-        print("Google Speech Recognition could not understand audio")
+        print("")
     except sr.RequestError as e:
-        print("Could not request results from Google Speech Recognition service; {0}".format(e))
+        print("")
 
     sleep(1)
